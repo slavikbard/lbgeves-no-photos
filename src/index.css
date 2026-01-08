@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Assistant:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    direction: rtl;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Heebo', 'Assistant', Arial, sans-serif;
+  }
+}
