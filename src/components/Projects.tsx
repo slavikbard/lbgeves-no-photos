@@ -4,46 +4,46 @@ import { projects } from '../data/projects';
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="py-20 bg-gray-50" style={{ direction: 'rtl' }}>
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center text-light-blue-800 mb-16">
           פרויקטים נבחרים
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project) => (
             <Link
               key={project.id}
               to={`/projects/${project.id}`}
-              className={`group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 ${
-                project.featured ? 'md:col-span-2 lg:col-span-2' : ''
-              }`}
+              className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
             >
-              <div className="relative h-80 overflow-hidden">
+              {/* Image Container */}
+              <div className="relative h-64 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-light-blue-300 opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-                <p className="text-sm opacity-90 mb-4">{project.description}</p>
-                <div className="flex items-center gap-2 text-white font-semibold group-hover:gap-4 transition-all">
-                  <span>פרטים נוספים</span>
-                  <ArrowLeft size={16} className="transform rotate-180" />
-                </div>
-              </div>
-              {project.featured && (
-                <div className="absolute top-4 right-4">
-                  <div className="bg-light-blue-300 text-white px-3 py-1 rounded-full text-xs font-semibold border-2 border-white">
+                {project.featured && (
+                  <div className="absolute top-4 right-4 bg-light-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold">
                     פרויקט מומלץ
                   </div>
+                )}
+              </div>
+
+              {/* Content Container (White Background) */}
+              <div className="p-6 flex flex-col flex-grow text-right">
+                <h3 className="text-xl font-bold text-light-blue-900 mb-2 group-hover:text-light-blue-600 transition-colors">
+                  {project.title}
+                </h3>
+                <p className="text-gray-600 text-sm mb-4 line-clamp-2">
+                  {project.description}
+                </p>
+                <div className="mt-auto flex items-center justify-end text-light-blue-500 font-semibold group-hover:gap-2 transition-all">
+                  <span>פרטים נוספים</span>
+                  <ArrowLeft className="mr-2 w-4 h-4" />
                 </div>
-              )}
+              </div>
             </Link>
           ))}
         </div>
