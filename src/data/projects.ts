@@ -19,35 +19,7 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    id: 'apartment-finishing-beer-sheva',
-    title: 'עבודות גמר בדירה פרטית | באר שבע',
-    description: 'עבודות גמר כחלק מפרויקט עיצוב בדירה פרטית בבאר שבע, שבוצעו בהתאמה לתכנון האדריכלי ולרמת גימור גבוהה',
-    fullDescription: 'עבודות גמר כחלק מפרויקט עיצוב בדירה פרטית בבאר שבע, שבוצעו בהתאמה לתכנון האדריכלי ולרמת גימור גבוהה. העבודות כללו פתרונות גבס, עבודות חשמל, שפכטל, צבע והתאמה של מערכת ספרינקלרים לעיצוב החדש – תוך תיאום שוטף מול המעצבת וספקי הפרויקט. התוצאה: דירה מעוצבת, נעימה ומעודכנת – עם גימור איכותי, פתרונות מותאמים אישית ותיאום מדויק בין כל מרכיבי הפרויקט.',
-    category: 'מגורים',
-    location: 'באר שבע',
-    year: '2025',
-    size: '400 מ"ר',
-    client: 'פרטי',
-    image: '/gmarbeersheva_(1).jpg',
-    gallery: [
-'/gmarbeersheva_(1).jpg', '/gmarbeersheva_(2).jpg', '/gmarbeersheva_(3).jpg', '/gmarbeersheva_(4).jpg', '/gmarbeersheva_(5).jpg',  '/gmarbeersheva (6).jpg', '/gmarbeersheva (7).jpg', '/gmarbeersheva (8).jpg', '/gmarbeersheva (9).jpg', '/gmarbeersheva (10).jpg', '/gmarbeersheva (11).jpg', '/gmarbeersheva (12).jpg', '/gmarbeersheva (13).jpg', '/gmarbeersheva (14).jpg', '/gmarbeersheva (15).jpg', '/gmarbeersheva (16).jpg', '/gmarbeersheva (17).jpg', '/gmarbeersheva (18).jpg', '/gmarbeersheva (19).jpg', '/gmarbeersheva (20).jpg', '/gmarbeersheva (21).jpg', '/gmarbeersheva (22).jpg', '/gmarbeersheva (23).jpg', '/gmarbeersheva (24).jpg', '/gmarbeersheva (25).jpg', '/gmarbeersheva (26).jpg', '/gmarbeersheva (27).jpg', '/gmarbeersheva (28).jpg', '/gmarbeersheva (29).jpg', '/gmarbeersheva (30).jpg', '/gmarbeersheva (31).jpg', '/gmarbeersheva (32).jpg', '/gmarbeersheva (33).jpg', '/gmarbeersheva (34).jpg', '/gmarbeersheva (35).jpg', '/gmarbeersheva (36).jpg', '/gmarbeersheva (37).jpg', '/gmarbeersheva (38).jpg', '/gmarbeersheva (39).jpg', '/gmarbeersheva (40).jpg',
-    ],
-    featured: true,
-    services: ['גבס', 'חשמל', 'שפכטל', 'צבע', 'התאמת ספרינקלרים', 'מטבחי רפאל'],
-    challenges: [
-      'התאמה מדויקת לתכנון האדריכלי',
-      'שילוב מערכת ספרינקלרים קיימת עם העיצוב החדש',
-      'תיאום שוטף מול המעצבת וספקי הפרויקט',
-    ],
-    solutions: [
-      'עבודה בשיתוף פעולה צמוד עם האדריכלית והמעצבת',
-      'גמישות בביצוע והתאמה לצורכי הפרויקט',
-      'רמת גימור גבוהה בכל שלב',
-    ],
-    designer: 'בתאל שיכוורגר (אדריכלית ומעצבת)',
-    photographer: 'מאור מויאל',
-  },
+  
   {
     id: 'bim-team',
     title: 'BIM TEAM',
@@ -150,7 +122,7 @@ export const projects: Project[] = [
     year: '2025',
     size: '250 מ"ר',
     client: 'פרטי',
-    image: '/penthouse_(1).jpg',
+    image: '/penthouse (7).jpg',
     gallery: [
       '/penthouse_(1).jpg',
       '/penthouse_(2).jpg',
@@ -219,7 +191,7 @@ export const projects: Project[] = [
     year: '2024',
     size: '300 מ"ר',
     client: 'פרטי',
-    image: '/privatehomeomer_(1).jpg',
+    image: '/privatehomeomer (16).jpg',
     gallery: [
       '/privatehomeomer_(1).jpg',
       '/privatehomeomer_(2).jpg',
@@ -254,7 +226,7 @@ export const projects: Project[] = [
     year: '2024',
     size: '600 מ"ר',
     client: 'פרטי',
-    image: '/privatehomepool_(1).jpg',
+    image: '/privatehomepool (16).jpg',
     gallery: [
       '/privatehomepool_(1).jpg',
       '/privatehomepool_(2).jpg',
@@ -276,6 +248,35 @@ export const projects: Project[] = [
       'התאמה אישית של כל פרט לקונספט העיצובי',
     ],
     designer: 'גל כהן',
+    photographer: 'מאור מויאל',
+  },
+  {
+    id: 'apartment-finishing-beer-sheva',
+    title: 'עבודות גמר בדירה פרטית | באר שבע',
+    description: 'עבודות גמר כחלק מפרויקט עיצוב בדירה פרטית בבאר שבע, שבוצעו בהתאמה לתכנון האדריכלי ולרמת גימור גבוהה',
+    fullDescription: 'עבודות גמר כחלק מפרויקט עיצוב בדירה פרטית בבאר שבע, שבוצעו בהתאמה לתכנון האדריכלי ולרמת גימור גבוהה. העבודות כללו פתרונות גבס, עבודות חשמל, שפכטל, צבע והתאמה של מערכת ספרינקלרים לעיצוב החדש – תוך תיאום שוטף מול המעצבת וספקי הפרויקט. התוצאה: דירה מעוצבת, נעימה ומעודכנת – עם גימור איכותי, פתרונות מותאמים אישית ותיאום מדויק בין כל מרכיבי הפרויקט.',
+    category: 'מגורים',
+    location: 'באר שבע',
+    year: '2025',
+    size: '400 מ"ר',
+    client: 'פרטי',
+    image: '/gmarbeersheva (6).jpg',
+    gallery: [
+'/gmarbeersheva_(1).jpg', '/gmarbeersheva_(2).jpg', '/gmarbeersheva_(3).jpg', '/gmarbeersheva_(4).jpg', '/gmarbeersheva_(5).jpg',  '/gmarbeersheva (6).jpg', '/gmarbeersheva (7).jpg', '/gmarbeersheva (8).jpg', '/gmarbeersheva (9).jpg', '/gmarbeersheva (10).jpg', '/gmarbeersheva (11).jpg', '/gmarbeersheva (12).jpg', '/gmarbeersheva (13).jpg', '/gmarbeersheva (14).jpg', '/gmarbeersheva (15).jpg', '/gmarbeersheva (16).jpg', '/gmarbeersheva (17).jpg', '/gmarbeersheva (18).jpg', '/gmarbeersheva (19).jpg', '/gmarbeersheva (20).jpg', '/gmarbeersheva (21).jpg', '/gmarbeersheva (22).jpg', '/gmarbeersheva (23).jpg', '/gmarbeersheva (24).jpg', '/gmarbeersheva (25).jpg', '/gmarbeersheva (26).jpg', '/gmarbeersheva (27).jpg', '/gmarbeersheva (28).jpg', '/gmarbeersheva (29).jpg', '/gmarbeersheva (30).jpg', '/gmarbeersheva (31).jpg', '/gmarbeersheva (32).jpg', '/gmarbeersheva (33).jpg', '/gmarbeersheva (34).jpg', '/gmarbeersheva (35).jpg', '/gmarbeersheva (36).jpg', '/gmarbeersheva (37).jpg', '/gmarbeersheva (38).jpg', '/gmarbeersheva (39).jpg', '/gmarbeersheva (40).jpg',
+    ],
+    featured: true,
+    services: ['גבס', 'חשמל', 'שפכטל', 'צבע', 'התאמת ספרינקלרים', 'מטבחי רפאל'],
+    challenges: [
+      'התאמה מדויקת לתכנון האדריכלי',
+      'שילוב מערכת ספרינקלרים קיימת עם העיצוב החדש',
+      'תיאום שוטף מול המעצבת וספקי הפרויקט',
+    ],
+    solutions: [
+      'עבודה בשיתוף פעולה צמוד עם האדריכלית והמעצבת',
+      'גמישות בביצוע והתאמה לצורכי הפרויקט',
+      'רמת גימור גבוהה בכל שלב',
+    ],
+    designer: 'בתאל שיכוורגר (אדריכלית ומעצבת)',
     photographer: 'מאור מויאל',
   },
 ];
