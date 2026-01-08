@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Phone, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -8,6 +9,7 @@ const Contact = () => {
     phone: '',
     message: '',
     consent: false,
+    privacyPolicy: false,
   });
 
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
@@ -30,6 +32,10 @@ const Contact = () => {
       newErrors.message = 'יש למלא הודעה';
     }
 
+    if (!formData.privacyPolicy) {
+      newErrors.privacyPolicy = 'יש לאשר את מדיניות הפרטיות';
+    }
+
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -45,6 +51,7 @@ const Contact = () => {
         phone: '',
         message: '',
         consent: false,
+        privacyPolicy: false,
       });
       setTimeout(() => setIsSubmitted(false), 5000);
     }
@@ -190,6 +197,29 @@ const Contact = () => {
                 )}
               </div>
 
+              <div>
+                <div className="flex items-start gap-3">
+                  <input
+                    type="checkbox"
+                    id="privacyPolicy"
+                    name="privacyPolicy"
+                    checked={formData.privacyPolicy}
+                    onChange={handleChange}
+                    className="mt-1 w-5 h-5 text-light-blue-300 border-gray-300 rounded focus:ring-light-blue-300"
+                  />
+                  <label htmlFor="privacyPolicy" className="text-gray-700 text-sm">
+                    אני מאשר/ת כי קראתי והסכמתי ל
+                    <Link to="/privacy" className="text-light-blue-800 hover:underline font-semibold mx-1">
+                      מדיניות הפרטיות
+                    </Link>
+                    *
+                  </label>
+                </div>
+                {errors.privacyPolicy && (
+                  <p className="text-red-500 text-sm mt-1 mr-8">{errors.privacyPolicy}</p>
+                )}
+              </div>
+
               <div className="flex items-start gap-3">
                 <input
                   type="checkbox"
@@ -200,7 +230,7 @@ const Contact = () => {
                   className="mt-1 w-5 h-5 text-light-blue-300 border-gray-300 rounded focus:ring-light-blue-300"
                 />
                 <label htmlFor="consent" className="text-gray-700 text-sm">
-                  אני מאשר/ת דיוור ומידע פרסומי בהתאם למדיניות הפרטיות
+                  אני מאשר/ת דיוור ומידע פרסומי
                 </label>
               </div>
 

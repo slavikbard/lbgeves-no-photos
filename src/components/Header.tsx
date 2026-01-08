@@ -1,9 +1,13 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const phoneNumber = '[הכנס כאן את המספר שלך]';
+  const message = 'שלום, אני מעוניין/ת לקבל מידע נוסף על השירותים שלכם';
+  const whatsappUrl = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`;
 
   const menuItems = [
     { label: 'בית', path: '/' },
@@ -18,9 +22,21 @@ const Header = () => {
     <>
       <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50 h-20">
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
-          <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
-            <img src="/logo.svg" alt="LBGEVES" className="h-12 md:h-14" />
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
+              <img src="/logo.svg" alt="LBGEVES" className="h-12 md:h-14" />
+            </Link>
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all duration-300 shadow-md"
+              aria-label="צור קשר בוואטסאפ"
+            >
+              <FaWhatsapp size={24} />
+              <span className="hidden md:inline font-semibold">WhatsApp</span>
+            </a>
+          </div>
 
           <nav className="hidden lg:flex items-center gap-1">
             {menuItems.map((item) => (

@@ -106,17 +106,17 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-6 text-sm opacity-80">
-            <a href="#" className="hover:opacity-100 hover:underline transition-all">
+            <Link to="/privacy" className="hover:opacity-100 hover:underline transition-all">
               מדיניות פרטיות
-            </a>
+            </Link>
             <span>|</span>
-            <a href="#" className="hover:opacity-100 hover:underline transition-all">
+            <Link to="/terms" className="hover:opacity-100 hover:underline transition-all">
               תנאי שימוש
-            </a>
+            </Link>
             <span>|</span>
-            <a href="#" className="hover:opacity-100 hover:underline transition-all">
+            <Link to="/accessibility" className="hover:opacity-100 hover:underline transition-all">
               הצהרת נגישות
-            </a>
+            </Link>
           </div>
         </div>
       </div>
