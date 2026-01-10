@@ -30,8 +30,8 @@ export const services: Service[] = [
     ],
     images: [
       'https://i.ibb.co/ch7j8DKY/gmarbeersheva-19.jpg',
-      'https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://i.ibb.co/NgdD3ZCm/privatehomepool-68.jpg',
+      'https://i.ibb.co/BH1Wys4b/privatehomepool-63.jpg',
     ],
   },
   {
