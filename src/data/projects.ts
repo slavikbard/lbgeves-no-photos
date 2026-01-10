@@ -32,7 +32,7 @@ export const projects: Project[] = [
     client: 'BIM TEAM',
     image: 'https://i.ibb.co/fV71P8w2/bimteam-6.jpg',
   gallery: [
-    'https://i.ibb.co/680pMMQ/bimteam-1.jpg',
+    'https://i.ibb.co/zVZHtfrT/bimteam-1-optimized.jpg',
     'https://i.ibb.co/rPfy67j/bimteam-2.jpg',
     'https://i.ibb.co/mVNsggr3/bimteam-3.jpg',
     'https://i.ibb.co/nqchd9W4/bimteam-4.jpg',
