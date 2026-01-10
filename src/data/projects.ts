@@ -30,7 +30,7 @@ export const projects: Project[] = [
     year: '2024',
     size: '400 מ"ר',
     client: 'BIM TEAM',
-    image: 'https://i.ibb.co/680pMMQ/bimteam-1.jpg',
+    image: 'https://i.ibb.co/fV71P8w2/bimteam-6.jpg',
   gallery: [
     'https://i.ibb.co/680pMMQ/bimteam-1.jpg',
     'https://i.ibb.co/rPfy67j/bimteam-2.jpg',
