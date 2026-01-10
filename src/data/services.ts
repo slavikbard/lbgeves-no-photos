@@ -87,7 +87,7 @@ export const services: Service[] = [
     ],
     images: [
       'https://i.ibb.co/2367Dm4t/privatehomeomer-14.jpg',
-      'https://i.ibb.co/DHNFMwRQ/privatehomeomer-4.jpg,
+      'https://i.ibb.co/DHNFMwRQ/privatehomeomer-4.jpg',
       'https://i.ibb.co/7Jtj1fpg/privatehomeomer-2.jpg',
     ],
   },
