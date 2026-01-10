@@ -286,7 +286,7 @@ export const projects: Project[] = [
   'https://i.ibb.co/twZkBCVV/Shipuz-Klali-Bait-Prati-Beer-Sheva-46.jpg',
   'https://i.ibb.co/yBWGNXfd/Shipuz-Klali-Bait-Prati-Beer-Sheva-47.jpg',
   'https://i.ibb.co/JR29q5SP/Shipuz-Klali-Bait-Prati-Beer-Sheva-48.jpg',
-  'https://i.ibb.co/F4PJsM19/Shipuz-Klali-Bait-Prati-Beer-Sheva-49.jpg'
+  'https://i.ibb.co/F4PJsM19/Shipuz-Klali-Bait-Prati-Beer-Sheva-49.jpg',
 
     ],
     featured: true,
