@@ -30,9 +30,18 @@ export const projects: Project[] = [
     year: '2024',
     size: '400 מ"ר',
     client: 'BIM TEAM',
-    image: '/bimteam-(10)_optimized.jpg',
-    gallery: [
-  '/bimteam-(1)_optimized.jpg', '/bimteam-(2)_optimized.jpg', '/bimteam-(3)_optimized.jpg', '/bimteam-(4)_optimized.jpg', '/bimteam-(5)_optimized.jpg', '/bimteam-(6)_optimized.jpg', '/bimteam-(7)_optimized.jpg', '/bimteam-(8)_optimized.jpg', '/bimteam-(9)_optimized.jpg', '/bimteam-(10)_optimized.jpg',
+    image: 'https://i.ibb.co/680pMMQ/bimteam-1.jpg',
+  gallery: [
+    'https://i.ibb.co/680pMMQ/bimteam-1.jpg',
+    'https://i.ibb.co/rPfy67j/bimteam-2.jpg',
+    'https://i.ibb.co/mVNsggr3/bimteam-3.jpg',
+    'https://i.ibb.co/nqchd9W4/bimteam-4.jpg',
+    'https://i.ibb.co/xSyfYc8Z/bimteam-5.jpg',
+    'https://i.ibb.co/fV71P8w2/bimteam-6.jpg',
+    'https://i.ibb.co/d0rmZxfz/bimteam-7.jpg',
+    'https://i.ibb.co/2739Shxp/bimteam-8.jpg',
+    'https://i.ibb.co/mF5y3m18/bimteam-9.jpg',
+    'https://i.ibb.co/fY227vVW/bimteam-10.jpg'
     ],
     featured: true,
     services: ['גבס', 'שפכטל', 'צבע', 'תקרות אקוסטיות', 'עבודות גמר'],
