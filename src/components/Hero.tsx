@@ -30,7 +30,7 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen flex items-center justify-center mt-20 pt-16"
       style={{
-        backgroundImage: 'url(https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&w=1920)',
+        backgroundImage: 'https://i.ibb.co/ch7j8DKY/gmarbeersheva-19.jpg',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
