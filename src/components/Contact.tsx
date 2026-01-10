@@ -135,7 +135,7 @@ const Contact = () => {
           </div>
 
           <div className="bg-white p-8 rounded-xl shadow-lg">
-            <form onSubmit={handleSubmit} className="space-y-6">
+           <form action="https://formspree.io/f/L.b.geves2016@gmail.com" method="POST" className="space-y-6">
               <div>
                 <label
                   htmlFor="name"
