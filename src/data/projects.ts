@@ -59,7 +59,7 @@ export const projects: Project[] = [
     year: '2024',
     size: '250 מ"ר',
     client: 'Axelrod Group',
-    image: '/432945154_708137614727639_989807349552420525_n.jpg',
+    image: 'https://i.ibb.co/m5CGNRFp/axelrod-5-optimized.jpg',
     gallery: [
       'https://i.ibb.co/VpHP3Lpd/axelrod-1-optimized.jpg',
     'https://i.ibb.co/XZBhfStR/axelrod-2-optimized.jpg',
