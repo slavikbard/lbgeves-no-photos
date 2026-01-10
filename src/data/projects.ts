@@ -236,7 +236,7 @@ export const projects: Project[] = [
     year: '2024',
     size: '180 מ"ר',
     client: 'פרטי',
-    image: 'https://i.ibb.co/35snSQ1J/Shipuz-Klali-Bait-Prati-Beer-Sheva-36.jpg',
+    image: 'https://i.ibb.co/TxvkG5Hg/Shipuz-Klali-Bait-Prati-Beer-Sheva-36.jpg',
     gallery: [
       'https://i.ibb.co/0VGKQJmZ/Shipuz-Klali-Bait-Prati-Beer-Sheva-1.jpg',
   'https://i.ibb.co/kV7B74Ft/Shipuz-Klali-Bait-Prati-Beer-Sheva-2.jpg',
