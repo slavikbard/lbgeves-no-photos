@@ -238,10 +238,7 @@ export const projects: Project[] = [
     client: 'פרטי',
     image: 'https://i.ibb.co/35snSQ1J/Shipuz-Klali-Bait-Prati-Beer-Sheva-37.jpg',
     gallery: [
-      JavaScript
-
-[
-  'https://i.ibb.co/0VGKQJmZ/Shipuz-Klali-Bait-Prati-Beer-Sheva-1.jpg',
+      'https://i.ibb.co/0VGKQJmZ/Shipuz-Klali-Bait-Prati-Beer-Sheva-1.jpg',
   'https://i.ibb.co/kV7B74Ft/Shipuz-Klali-Bait-Prati-Beer-Sheva-2.jpg',
   'https://i.ibb.co/dJ3swjz6/Shipuz-Klali-Bait-Prati-Beer-Sheva-3.jpg',
   'https://i.ibb.co/ymScWwGh/Shipuz-Klali-Bait-Prati-Beer-Sheva-4.jpg',
@@ -290,6 +287,8 @@ export const projects: Project[] = [
   'https://i.ibb.co/yBWGNXfd/Shipuz-Klali-Bait-Prati-Beer-Sheva-47.jpg',
   'https://i.ibb.co/JR29q5SP/Shipuz-Klali-Bait-Prati-Beer-Sheva-48.jpg',
   'https://i.ibb.co/F4PJsM19/Shipuz-Klali-Bait-Prati-Beer-Sheva-49.jpg'
+[
+
     ],
     featured: true,
     services: ['פירוקים', 'חיזוק מבנה', 'חשמל תלת פאזי', 'אינסטלציה', 'ריצוף מדוקק', 'מערכות מיזוג', 'אלומיניום', 'מטבח', 'טיח', 'שליכט צבעוני', 'דלתות קו אפס', 'גבס', 'שפכטל', 'צבע'],
