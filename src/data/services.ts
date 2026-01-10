@@ -29,7 +29,7 @@ export const services: Service[] = [
       'ליווי מקצועי - ניסיון של שנים בניהול פרויקטים מורכבים',
     ],
     images: [
-      'https://images.pexels.com/photos/1797415/pexels-photo-1797415.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://i.ibb.co/ch7j8DKY/gmarbeersheva-19.jpg',
       'https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1200',
       'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1200',
     ],
