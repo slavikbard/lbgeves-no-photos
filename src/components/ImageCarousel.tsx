@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const ImageCarousel = () => {
   const images = [
     'https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    'https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    'https://i.ibb.co/9mTRK6MB/bimteam-4-optimized.jpg',
   
     'https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=1920',
     'https://i.ibb.co/39C4NcF7/blog2.jpg',
