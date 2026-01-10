@@ -314,9 +314,26 @@ export const projects: Project[] = [
     year: '2024',
     size: '300 מ"ר',
     client: 'פרטי',
-    image: '/privatehomeomer (16).jpg',
+    image: 'https://i.ibb.co/Kj4QKnmX/privatehomeomer-16.jpg',
     gallery: [
-     
+     'https://i.ibb.co/DD5G5tyR/privatehomeomer-1.jpg',
+  'https://i.ibb.co/7Jtj1fpg/privatehomeomer-2.jpg',
+  'https://i.ibb.co/bM7MBRYc/privatehomeomer-3.jpg',
+  'https://i.ibb.co/DHNFMwRQ/privatehomeomer-4.jpg',
+  'https://i.ibb.co/Kc650tqm/privatehomeomer-5.jpg',
+  'https://i.ibb.co/5XYKW431/privatehomeomer-6.jpg',
+  'https://i.ibb.co/PZ2gx6Cn/privatehomeomer-7.jpg',
+  'https://i.ibb.co/5dRMdf6/privatehomeomer-8.jpg',
+  'https://i.ibb.co/1Y290jvf/privatehomeomer-9.jpg',
+  'https://i.ibb.co/Nns7DQBT/privatehomeomer-10.jpg',
+  'https://i.ibb.co/pjXWsN7W/privatehomeomer-11.jpg',
+  'https://i.ibb.co/r2d20G1q/privatehomeomer-12.jpg',
+  'https://i.ibb.co/4gKdcqR5/privatehomeomer-13.jpg',
+  'https://i.ibb.co/2367Dm4t/privatehomeomer-14.jpg',
+  'https://i.ibb.co/rGXY6tTp/privatehomeomer-15.jpg',
+  'https://i.ibb.co/Kj4QKnmX/privatehomeomer-16.jpg',
+  'https://i.ibb.co/jkxGpN2r/privatehomeomer-17.jpg',
+  'https://i.ibb.co/Cs12fwzR/privatehomeomer-18.jpg'
       
     ],
     featured: true,
