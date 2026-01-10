@@ -118,7 +118,7 @@ export const articles: Article[] = [
 **צריכים עזרה בבחירת גבס לפרויקט שלכם? צרו קשר ונשמח לייעץ!**
     `,
     date: 'ינואר 2026',
-    image: 'https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://www.shutterstock.com/image-photo/installation-drywall-workers-measuring-ceiling-600nw-1785471206.jpg',
     author: 'צוות LBGEVES',
     readTime: '5 דקות קריאה',
   },
