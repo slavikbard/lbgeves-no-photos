@@ -224,7 +224,7 @@ export const articles: Article[] = [
 **זקוקים לליווי מקצועי בפרויקט השיפוץ שלכם? צרו קשר לייעוץ חינם!**
     `,
     date: 'דצמבר 2025',
-    image: 'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://m.media-amazon.com/images/I/61vhBS5iBzL.jpg',
     author: 'צוות LBGEVES',
     readTime: '7 דקות קריאה',
   },
