@@ -40,20 +40,40 @@ const Contact = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (validateForm()) {
-      setIsSubmitted(true);
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-        consent: false,
-        privacyPolicy: false,
-      });
-      setTimeout(() => setIsSubmitted(false), 5000);
+      try {
+        const apiUrl = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`;
+
+        const response = await fetch(apiUrl, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to send message');
+        }
+
+        setIsSubmitted(true);
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+          consent: false,
+          privacyPolicy: false,
+        });
+        setTimeout(() => setIsSubmitted(false), 5000);
+      } catch (error) {
+        console.error('Error sending message:', error);
+        setErrors({ submit: 'שגיאה בשליחת ההודעה. אנא נסה שוב.' });
+      }
     }
   };
 
@@ -237,6 +257,12 @@ const Contact = () => {
               {isSubmitted && (
                 <div className="bg-green-50 border-2 border-green-500 text-green-700 px-4 py-3 rounded-lg">
                   ההודעה נשלחה בהצלחה! נחזור אליך בהקדם
+                </div>
+              )}
+
+              {errors.submit && (
+                <div className="bg-red-50 border-2 border-red-500 text-red-700 px-4 py-3 rounded-lg">
+                  {errors.submit}
                 </div>
               )}
 

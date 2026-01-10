@@ -4,6 +4,7 @@ import { ArrowRight, MapPin, Calendar, Ruler, User } from 'lucide-react';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 import Breadcrumb from '../components/Breadcrumb';
+import ZoomableImage from '../components/ZoomableImage';
 import { getProjectById } from '../data/projects';
 
 const ProjectDetailPage = () => {
@@ -161,17 +162,12 @@ const ProjectDetailPage = () => {
                       <div
                         key={index}
                         className="relative h-48 rounded-lg overflow-hidden cursor-pointer group"
-                        onClick={() => {
-                          setPhotoIndex(index);
-                          setIsLightboxOpen(true);
-                        }}
                       >
-                        <img
+                        <ZoomableImage
                           src={image}
                           alt={`${project.title} ${index + 1}`}
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                         />
-                        <div className="absolute inset-0 bg-light-blue-800/0 group-hover:bg-light-blue-800/30 transition-colors duration-300"></div>
                       </div>
                     ))}
                   </div>
