@@ -57,8 +57,8 @@ export const services: Service[] = [
       'פתרונות מותאמים - התאמה לצרכי העסק הספציפיים',
     ],
     images: [
-      'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://i.ibb.co/mCFPG9Zs/bakery-6-optimized.jpg',
+      'https://i.ibb.co/qYBjnv0k/bakery-2-optimized.jpg',
       'https://images.pexels.com/photos/6969865/pexels-photo-6969865.jpeg?auto=compress&cs=tinysrgb&w=1200',
     ],
   },
