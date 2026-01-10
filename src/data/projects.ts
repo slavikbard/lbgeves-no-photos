@@ -316,12 +316,7 @@ export const projects: Project[] = [
     client: 'פרטי',
     image: '/privatehomeomer (16).jpg',
     gallery: [
-      '/privatehomeomer_(1).jpg',
-      '/privatehomeomer_(2).jpg',
-      '/privatehomeomer_(3).jpg',
-      '/privatehomeomer_(4).jpg',
-      '/privatehomeomer_(5).jpg',
-      '/privatehomeomer (6).jpg', '/privatehomeomer (7).jpg', '/privatehomeomer (8).jpg', '/privatehomeomer (9).jpg', '/privatehomeomer (10).jpg', '/privatehomeomer (11).jpg', '/privatehomeomer (12).jpg', '/privatehomeomer (13).jpg', '/privatehomeomer (14).jpg', '/privatehomeomer (15).jpg', '/privatehomeomer (16).jpg', '/privatehomeomer (17).jpg', '/privatehomeomer (18).jpg',
+     
       
     ],
     featured: true,
