@@ -112,9 +112,9 @@ export const services: Service[] = [
       'איכות ללא פשרות - גם בפרויקטים הייחודiים ביותר',
     ],
     images: [
-      'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/6969865/pexels-photo-6969865.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://i.ibb.co/Tqmj0Ytw/penthouse-63.jpg',
+      'https://i.ibb.co/w5wWdLX/penthouse-65.jpg',
+      'https://i.ibb.co/bMn5s2X3/penthouse-67.jpg',
     ],
   },
 ];
