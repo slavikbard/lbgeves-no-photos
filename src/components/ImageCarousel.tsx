@@ -8,6 +8,7 @@ const ImageCarousel = () => {
    'https://i.ibb.co/jkxGpN2r/privatehomeomer-17.jpg',
     'https://i.ibb.co/gLBmrwxH/bakery-15-optimized.jpg',
     'https://i.ibb.co/27RsBRzm/privatehomepool-38.jpg',
+    'https://i.ibb.co/9kZXSSm7/bimteam-3-optimized.jpg',
     'https://i.ibb.co/0RbKwyk9/penthouse-3.jpg',
     'https://i.ibb.co/39C4NcF7/blog2.jpg',
     'https://i.ibb.co/przqrMQP/blog3.jpg',
