@@ -7,7 +7,8 @@ const ImageCarousel = () => {
     'https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=1920',
   
     'https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    
+    'https://i.ibb.co/39C4NcF7/blog2.jpg',
+    'https://i.ibb.co/przqrMQP/blog3.jpg',
     'https://i.ibb.co/nqn0WzDX/blog1.jpg',
   ];
 
