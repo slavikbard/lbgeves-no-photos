@@ -3,16 +3,14 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const ImageCarousel = () => {
   const images = [
-    'https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&w=1920',
+   
     'https://i.ibb.co/9mTRK6MB/bimteam-4-optimized.jpg',
    'https://i.ibb.co/jkxGpN2r/privatehomeomer-17.jpg',
     'https://i.ibb.co/gLBmrwxH/bakery-15-optimized.jpg',
     'https://i.ibb.co/27RsBRzm/privatehomepool-38.jpg',
     'https://i.ibb.co/9kZXSSm7/bimteam-3-optimized.jpg',
     'https://i.ibb.co/0RbKwyk9/penthouse-3.jpg',
-    'https://i.ibb.co/39C4NcF7/blog2.jpg',
-    'https://i.ibb.co/przqrMQP/blog3.jpg',
-    'https://i.ibb.co/nqn0WzDX/blog1.jpg',
+  
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
