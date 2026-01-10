@@ -408,7 +408,7 @@ export const projects: Project[] = [
   'https://i.ibb.co/wNQ5gy9j/privatehomepool-85.jpg', 'https://i.ibb.co/208S5GDC/privatehomepool-86.jpg',
   'https://i.ibb.co/xqLqRGpr/privatehomepool-87.jpg', 'https://i.ibb.co/QFZSZwyX/privatehomepool-88.jpg',
   'https://i.ibb.co/b5CDcgGM/privatehomepool-89.jpg', 'https://i.ibb.co/gKDGFvx/privatehomepool-90.jpg',
-]
+],
     featured: true,
     services: ['גבס', 'חשמל', 'קיר לקמין גז', 'הנמכות דקורטיביות', 'שפכטל', 'צבע', 'תאורה'],
     challenges: [
