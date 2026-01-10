@@ -86,9 +86,9 @@ export const services: Service[] = [
       'ניסיון בפרויקטי יוקרה - עבודה עם מעצבים ואדריכלים מובילים',
     ],
     images: [
-      'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://i.ibb.co/2367Dm4t/privatehomeomer-14.jpg',
+      'https://i.ibb.co/DHNFMwRQ/privatehomeomer-4.jpg,
+      'https://i.ibb.co/7Jtj1fpg/privatehomeomer-2.jpg',
     ],
   },
   {
