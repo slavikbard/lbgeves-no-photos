@@ -17,14 +17,14 @@ const Projects = () => {
               to={`/projects/${project.id}`}
               className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
             >
-              <div className="relative w-full overflow-hidden" style={{ aspectRatio: '16/9' }}>
+              <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 {project.featured && (
-                  <div className="absolute top-4 right-4 bg-light-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold">
+                  <div className="absolute top-4 right-4 bg-light-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold z-10">
                     פרויקט מומלץ
                   </div>
                 )}

@@ -26,15 +26,15 @@ const ProjectsPage = () => {
                 to={`/projects/${project.id}`}
                 className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
               >
-                <div className="relative w-full overflow-hidden" style={{ aspectRatio: '16/9' }}>
+                <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                   {project.featured && (
-                    <div className="absolute top-4 right-4">
+                    <div className="absolute top-4 right-4 z-10">
                       <div className="bg-light-blue-300 text-white px-3 py-1 rounded-full text-xs font-semibold border-2 border-white">
                         פרויקט מומלץ
                       </div>
