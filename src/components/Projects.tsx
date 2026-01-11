@@ -10,19 +10,18 @@ const Projects = () => {
           פרויקטים נבחרים
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto px-4 md:px-0">
           {projects.map((project) => (
             <Link
               key={project.id}
               to={`/projects/${project.id}`}
               className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
             >
-              {/* Image Container */}
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative w-full overflow-hidden" style={{ aspectRatio: '16/9' }}>
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 {project.featured && (
                   <div className="absolute top-4 right-4 bg-light-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold">
