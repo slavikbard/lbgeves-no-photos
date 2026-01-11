@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { ArrowRight, MapPin, Calendar, Ruler, User } from 'lucide-react';
 import Lightbox from 'yet-another-react-lightbox';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import 'yet-another-react-lightbox/styles.css';
 import Breadcrumb from '../components/Breadcrumb';
 import { getProjectById } from '../data/projects';
@@ -186,6 +187,11 @@ const ProjectDetailPage = () => {
         close={() => setIsLightboxOpen(false)}
         slides={slides}
         index={photoIndex}
+        plugins={[Zoom]}
+        zoom={{
+          maxZoomPixelRatio: 3,
+          scrollToZoom: true,
+        }}
         styles={{
           container: { backgroundColor: 'rgba(0, 0, 0, 0.95)' },
         }}
