@@ -26,16 +26,17 @@ const Hero = () => {
   };
 
   return (
-    <section
-      id="home"
-      className="relative min-h-screen flex items-center justify-center mt-20 pt-16"
-      style={{
-        backgroundImage: 'https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
-      }}
-    >
+  <section
+  id="home"
+  className="relative min-h-screen flex items-center justify-center mt-20 pt-16"
+  style={{
+    backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&w=1920")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundAttachment: 'fixed',
+    backgroundRepeat: 'no-repeat'
+  }}
+>
       <div className="absolute inset-0 bg-light-blue-800 bg-opacity-70"></div>
 
       <div className="container mx-auto px-4 py-16 relative z-10">
