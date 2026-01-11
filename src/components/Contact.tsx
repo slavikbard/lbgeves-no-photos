@@ -135,7 +135,7 @@ const Contact = () => {
           </div>
 
           <div className="bg-white p-8 rounded-xl shadow-lg">
-           <form onSubmit={handleSubmit} className="space-y-">
+           <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
               <div>
                 <label
                   htmlFor="name"
