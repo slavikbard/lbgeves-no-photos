@@ -161,16 +161,13 @@ const ProjectDetailPage = () => {
                     {project.gallery.map((image, index) => (
                       <div
                         key={index}
-                        className="relative rounded-lg overflow-hidden cursor-pointer group"
-                        style={{ paddingBottom: '75%' }}
+                        className="relative rounded-lg overflow-hidden cursor-pointer group aspect-[4/3]"
                       >
-                        <div className="absolute top-0 left-0 w-full h-full">
-                          <ZoomableImage
-                            src={image}
-                            alt={`${project.title} ${index + 1}`}
-                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                          />
-                        </div>
+                        <ZoomableImage
+                          src={image}
+                          alt={`${project.title} ${index + 1}`}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                        />
                       </div>
                     ))}
                   </div>
