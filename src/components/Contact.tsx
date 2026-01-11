@@ -136,6 +136,7 @@ const Contact = () => {
 
           <div className="bg-white p-8 rounded-xl shadow-lg">
            <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
+             <input type="hidden" name="access_key" value="d6fac7d5-b101-4428-a8b8-6411c2eb3977" />
               <div>
                 <label
                   htmlFor="name"
