@@ -10,6 +10,9 @@ const ImageCarousel = () => {
     'https://i.ibb.co/27RsBRzm/privatehomepool-38.jpg',
     'https://i.ibb.co/9kZXSSm7/bimteam-3-optimized.jpg',
     'https://i.ibb.co/0RbKwyk9/penthouse-3.jpg',
+    'https://i.ibb.co/rKnmL4tq/Shipuz-Klali-Bait-Prati-Beer-Sheva-12.jpg',
+    'https://i.ibb.co/RGpfLz1M/privatehomepool-59.jpg',
+    'https://i.ibb.co/v63sgy7y/privatehomepool-21.jpg',
   
   ];
 
