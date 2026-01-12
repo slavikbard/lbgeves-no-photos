@@ -59,7 +59,7 @@ export const services: Service[] = [
     images: [
       'https://i.ibb.co/mCFPG9Zs/bakery-6-optimized.jpg',
       'https://i.ibb.co/qYBjnv0k/bakery-2-optimized.jpg',
-      'https://images.pexels.com/photos/6969865/pexels-photo-6969865.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://res.cloudinary.com/dwi0ey5cv/image/upload/v1768202747/bimteam-_9__optimized_ftocwb.jpg',
     ],
   },
   {
