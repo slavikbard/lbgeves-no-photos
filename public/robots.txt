@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://lbgeves.com/sitemap.xml
+Sitemap: https://lbgeves.co.il/sitemap.xml
