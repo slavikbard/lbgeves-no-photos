@@ -15,4 +15,12 @@
     text-align: right;
     font-family: 'Heebo', 'Assistant', Arial, sans-serif;
   }
+
+  .high-contrast {
+    filter: contrast(150%) !important;
+  }
+
+  .underline-links a {
+    text-decoration: underline !important;
+  }
 }
